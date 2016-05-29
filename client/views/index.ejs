@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<% for (x in city){ %>`
+<h2><a href=<%="/cities/" + city[x]._id %>><%= city[x].name %> </a></h2>
+<% } %>
+<h2><a href="/cities/new">Add new city<a href="/cities/new"></h2></a>
+</body>
+</html>

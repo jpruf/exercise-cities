@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h2>City: <%= city[0].name %> </h2>
+<h2>Country: <%= city[0].country %></h2>
+
+<h2><a href= <%= "/cities/" + city[0]._id + "/edit" %> >Edit this entry</a></h2>
+<h2><a href=<%= "/cities/" + city[0]._id + "/delete" %>>Delete this entry</a></h2>
+</body>
+</html>

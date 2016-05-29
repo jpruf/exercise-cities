@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Edit entry for <%= city[0].name %></h1>
+<form method="post" action=<%= "/cities/" + city[0]._id + '/edit'%>
+	<p>City: <input type="text" name="name" placeholder="<%= city[0].name %>"></p>
+	<p>Country: <input type="text" name="country" placeholder="<%= city[0].country %>"></p>
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
